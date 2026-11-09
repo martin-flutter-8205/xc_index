@@ -1,0 +1,20 @@
+name: xc_index
+description: 主框架业务包：底部 TabBar + 四个 tab 页，App 的常驻外壳
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  xc_platform:
+    path: ../xc_framework/packages/xc_platform
+  xc_ui:
+    path: ../xc_framework/packages/xc_ui
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
