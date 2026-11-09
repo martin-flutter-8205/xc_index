@@ -19,7 +19,7 @@
 ```yaml
 xc_index:
   git:
-    url: <本仓库地址>
+    url: git@github.com:martin-flutter-8205/xc_index.git
     ref: main
 ```
 
