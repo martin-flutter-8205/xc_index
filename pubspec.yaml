@@ -10,10 +10,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # 框架仓库（独立 git 仓库，锁定 main 分支）
   xc_platform:
-    path: ../xc_framework/packages/xc_platform
+    git:
+      url: /Users/ppx/Desktop/code/xc_platform
+      ref: main
   xc_ui:
-    path: ../xc_framework/packages/xc_ui
+    git:
+      url: /Users/ppx/Desktop/code/xc_ui
+      ref: main
 
 dev_dependencies:
   flutter_test:

@@ -9,8 +9,7 @@
 
 ## 依赖
 
-- `xc_platform` / `xc_ui`：框架包，本地以 path 指向 `../xc_framework/packages/`，
-  上远程后换成 git 依赖
+- `xc_platform` / `xc_ui`：独立 git 仓库，`git: { url, ref: main }` 接入
 
 ## 被谁引用
 
